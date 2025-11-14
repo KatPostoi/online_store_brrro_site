@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+
+  position: relative;
+  min-height: 450px;
+
+  background-color: var(--color-light-grey);
+  gap: var(--indent-xl);
+}
+
+.main-conteiner {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: var(--indent-xl);
+}
+
+.video-conteiner {
+  flex: 0 0 736px;
+  height: 1040px;
+  margin-left: auto;
+  /* background-color: var(--color-purple); */
+  border-radius: 65px;
+}
+
+.video-conteiner video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 65px;
+}
+
+.find-wrapper {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: var(--indent-xl);
+}
+
+.find {
+  background-color: var(--color-black);
+  height: 90px;
+  width: 475px;
+  border-radius: 65px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.find:hover {
+  background-color: var(--color-dark-grey);
+  transition: background-color 300ms ease-out;
+}
+
+.find:hover .find-text {
+  transition: background-color 300ms ease-out;
+  color: var(--color-purple);
+}
+
+.find-text {
+  color: var(--color-light-grey);
+  margin-left: var(--indent-xl);
+}
+
+.bottom-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-black);
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+}
+
+.bottom-black:hover {
+  background-color: var(--color-dark-grey);
+  transition: background-color 300ms ease-out;
+}
+
+.bottom-black.bottom-black-pc-purple:hover a img {
+  content: url('../images/personal_acc_purple.svg');
+}
+
+.bottom-purple {
+  background-color: var(--color-purple);
+}
+
+.bottom-purple:hover {
+  background-color: var(--color-dark-grey);
+  transition: background-color 300ms ease-out;
+}
+
+.bottom-purple.bottom-black-br-purple:hover a img {
+  content: url('../images/logo_mini_brrro_purple.svg');
+}
+
+.logotip {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slogan {
+  text-align: center;
+}

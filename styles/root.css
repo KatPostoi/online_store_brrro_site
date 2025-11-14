@@ -1,0 +1,47 @@
+:root {
+  --color-white: #ffffff;
+  --color-light-grey: #b1b1b1;
+  --color-dark-grey: #4e4e4e;
+  --color-black: #000000;
+  --color-purple: #9f7fb9;
+  --indent-s: 10px;
+  --indent-m: 20px;
+  --indent-l: 30px;
+  --indent-xl: 40px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-light-grey);
+  padding: var(--indent-m);
+  font-size: 32px;
+  color: var(--color-white);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--indent-m);
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.oswald-anonymous_pro {
+  font-family: 'Oswald', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fonts-size-40 {
+  font-size: 40px;
+}

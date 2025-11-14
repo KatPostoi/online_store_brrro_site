@@ -1,0 +1,74 @@
+.footer {
+  background-color: var(--color-black);
+  border-radius: 65px;
+  padding: var(--indent-xl);
+}
+
+.cards-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--indent-l);
+  margin-bottom: var(--indent-xl);
+}
+
+.cards-social-network {
+  display: flex;
+  margin-right: 165px;
+  gap: var(--indent-xl);
+  justify-content: flex-end;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--indent-xl);
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+}
+
+.bottom:hover {
+  background-color: var(--color-dark-grey);
+  transition: background-color 300ms ease-out;
+}
+
+.bottom-purple {
+  background-color: var(--color-purple);
+}
+
+.bottom-purple:hover {
+  background-color: var(--color-dark-grey);
+  transition: background-color 300ms ease-out;
+}
+
+.bottom-purple.bottom-purple-br:hover a img {
+  content: url('../images/logo_mini_brrro_purple.svg');
+}
+
+.bottom.bottom-tg:hover a img {
+  content: url('../images/logo_tg_purple.svg');
+}
+
+.bottom.bottom-vk:hover a img {
+  content: url('../images/logo_vk_purple.svg');
+}
+
+.footer .menu-item {
+  display: block;
+}
+
+.footer .menu-item.custom-link {
+  color: var(--color-white);
+}
+
+.footer .menu-item.custom-link:hover {
+  color: var(--color-purple);
+  transition: color 300ms ease-out;
+}
