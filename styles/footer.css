@@ -24,6 +24,11 @@
   gap: var(--indent-xl);
 }
 
+.card-row {
+  display: flex;
+  gap: var(--indent-xl);
+}
+
 .bottom {
   display: flex;
   justify-content: center;

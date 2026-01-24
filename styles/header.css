@@ -33,22 +33,22 @@
 }
 
 .find-wrapper {
-  display: flex;
-  margin-left: auto;
-  justify-content: flex-end;
-  margin-top: 20px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr auto auto;
+  /* margin-top: 20px; */
   gap: var(--indent-xl);
 }
 
 .find {
   background-color: var(--color-black);
   height: 90px;
-  width: 475px;
+  width: 100%;
   border-radius: 65px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-align: left;
+  text-align: right;
 }
 
 .find:hover {
@@ -63,7 +63,8 @@
 
 .find-text {
   color: var(--color-light-grey);
-  margin-left: var(--indent-xl);
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .bottom-black {
@@ -74,6 +75,7 @@
   width: 90px;
   height: 90px;
   border-radius: 100px;
+  padding: var(--indent-m);
 }
 
 .bottom-black:hover {
@@ -87,6 +89,7 @@
 
 .bottom-purple {
   background-color: var(--color-purple);
+  padding: var(--indent-m);
 }
 
 .bottom-purple:hover {

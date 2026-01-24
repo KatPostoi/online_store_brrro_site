@@ -31,7 +31,7 @@
   flex: 1 1 245px;
   overflow: visible;
   border-radius: 65px;
-  padding: var(--indent-m);
+  padding: var(--indent-xl);
   background-color: var(--color-white);
 }
 
@@ -67,7 +67,7 @@
   justify-content: space-between;
   overflow: visible;
   border-radius: 65px;
-  padding: var(--indent-m);
+  padding: var(--indent-xl);
   background-color: var(--color-white);
 }
 
@@ -106,7 +106,7 @@
   min-height: 245px;
   background-color: var(--color-white);
   border-radius: 65px;
-  padding: var(--indent-m);
+  padding: var(--indent-xl);
   overflow: hidden;
 }
 
